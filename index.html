@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="menu">
+    <main>
+    <h1 id="title">Mental Health & Resilience Survey</h1>
+    <p id="description">Please share your thoughts on your emotional well-being to help us better understand and support your mental health needs.</p>
+</p>
+    <form id="survey-form">
+      <h2>About You</h2>
+      <fieldset>
+        <label id="name-label" for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        
+        <label id="email-label" for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <label id="number-label" for="number">Age:</label>
+        <input type="number" id="number" name="age" min="1" max="120" placeholder="Enter your age">
+        
+        <label for="dropdown">Which option best describes your current role?</label>
+        <select id="dropdown" name="options">
+            <option value="" disabled selected>Select current role</option>
+            <option value="student">Student</option>
+            <option value="full-time-job">Full Time Job</option>
+            <option value="prefer-not-to-say">Prefer Not to Say</option>
+            <option value="others">Others</option>
+        </select>
+        </fieldset>
+        <h2>General Evalution</h2>
+        <fieldset>
+          <legend>1. Little interest or pleasure in doing things</legend>
+        <div class="radio-group">
+            <label><input type="radio" name="usage" value="1"> 1 (Never)</label>
+            <label><input type="radio" name="usage" value="2"> 2 (Rarely)</label>
+            <label><input type="radio" name="usage" value="3"> 3 (Sometimes)</label>
+            <label><input type="radio" name="usage" value="4"> 4 (Often)</label>
+            <label><input type="radio" name="usage" value="5"> 5 (Always)</label>
+        </div>
+<legend>2. Feeling down, depressed or hopeless</legend>
+        <div class="radio-group">
+            <label><input type="radio" name="usage" value="1"> 1 (Never)</label>
+            <label><input type="radio" name="usage" value="2"> 2 (Rarely)</label>
+            <label><input type="radio" name="usage" value="3"> 3 (Sometimes)</label>
+            <label><input type="radio" name="usage" value="4"> 4 (Often)</label>
+            <label><input type="radio" name="usage" value="5"> 5 (Always)</label>
+        </div>
+        <legend>3. Trouble falling or staying asleep or sleeping too much</legend>
+        <div class="radio-group">
+            <label><input type="radio" name="usage" value="1"> 1 (Never)</label>
+            <label><input type="radio" name="usage" value="2"> 2 (Rarely)</label>
+            <label><input type="radio" name="usage" value="3"> 3 (Sometimes)</label>
+            <label><input type="radio" name="usage" value="4"> 4 (Often)</label>
+            <label><input type="radio" name="usage" value="5"> 5 (Always)</label>
+        </div>
+        <legend>4. Feeling tired or having little energy</legend>
+        <div class="radio-group">
+            <label><input type="radio" name="usage" value="1"> 1 (Never)</label>
+            <label><input type="radio" name="usage" value="2"> 2 (Rarely)</label>
+            <label><input type="radio" name="usage" value="3"> 3 (Sometimes)</label>
+            <label><input type="radio" name="usage" value="4"> 4 (Often)</label>
+            <label><input type="radio" name="usage" value="5"> 5 (Always)</label>
+        </div>
+        <legend>5. Poor appetite or overeating</legend>
+        <div class="radio-group">
+            <label><input type="radio" name="usage" value="1"> 1 (Never)</label>
+            <label><input type="radio" name="usage" value="2"> 2 (Rarely)</label>
+            <label><input type="radio" name="usage" value="3"> 3 (Sometimes)</label>
+            <label><input type="radio" name="usage" value="4"> 4 (Often)</label>
+            <label><input type="radio" name="usage" value="5"> 5 (Always)</label>
+        </div>
+        <legend>6. Feeling bad about yourself - or that you are a failure or have let yourself or family down</legend>
+        <div class="radio-group">
+            <label><input type="radio" name="usage" value="1"> 1 (Never)</label>
+            <label><input type="radio" name="usage" value="2"> 2 (Rarely)</label>
+            <label><input type="radio" name="usage" value="3"> 3 (Sometimes)</label>
+            <label><input type="radio" name="usage" value="4"> 4 (Often)</label>
+            <label><input type="radio" name="usage" value="5"> 5 (Always)</label>
+        </div>
+        <legend>8. Moving or speaking so slowly that other people could have noticed or the opposite - being so fidgety or restless that you have been moving around a lot more than usual</legend>
+        <div class="radio-group">
+            <label><input type="radio" name="usage" value="1"> 1 (Never)</label>
+            <label><input type="radio" name="usage" value="2"> 2 (Rarely)</label>
+            <label><input type="radio" name="usage" value="3"> 3 (Sometimes)</label>
+            <label><input type="radio" name="usage" value="4"> 4 (Often)</label>
+            <label><input type="radio" name="usage" value="5"> 5 (Always)</label>
+            </div>
+            </fieldset>
+           
+<h2>About Your Mental Health</h2>
+<fieldset>
+  <legend>1. Have you ever been diagnosed with a mental health condition by a professional (doctor, therapist, etc.) ?</legend>
+        <div class="radio-group">
+            <label><input type="radio" name="usage" value="Yes"> Yes</label>
+            <label><input type="radio" name="usage" value="No"> No</label>
+            <legend>2. Have you ever received treatment/support for a mental health problem?</legend>
+        <div class="radio-group">
+            <label><input type="radio" name="usage" value="Yes"> Yes</label>
+            <label><input type="radio" name="usage" value="No"> No</label>
+            
+            </div>
+            <legend>3. Think about your mental health test. What are the main things contributing to your mental health problems right now? Choose up to 3.</legend>
+        <label><input type="checkbox" name="interest" value="health-problems"> Health problems</label>
+        <label><input type="checkbox" name="interest" value="racism"> Racism</label>
+        <label><input type="checkbox" name="interest" value="past-trauma"> Past trauma</label>
+        <label><input type="checkbox" name="interest" value="relationship-problems"> Relationship problems</label>
+        <label><input type="checkbox" name="interest" value="loneliness-isolation"> Loneliness or isolation</label>
+        <label><input type="checkbox" name="interest" value="grief-loss"> Grief or loss of something or someone</label>
+        <label><input type="checkbox" name="interest" value="financial-problems"> Financial problems</label>
+        <label><input type="checkbox" name="interest" value="others"> Others</label>
+              </fieldset>
+
+            <fieldset>
+              <label for="comments">Additional Comments:</label>
+        <textarea id="comments" name="comments" placeholder="Enter your comments here"></textarea>
+              </fieldset>
+              <button id="submit" type="submit">Submit</button>
+      
+</form>
+</main>
+</div>
+</body>
+</html>

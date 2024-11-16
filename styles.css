@@ -1,0 +1,69 @@
+h1,p{
+    text-align: center;
+    margin: 1em auto;
+  }
+  p{
+    font-style: italic;
+  }
+  body {
+    background-image:url(https://i.pinimg.com/564x/6c/40/ac/6c40ac7a32a828100be9703cbeb99963.jpg);
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+  }
+  .menu {
+    width: 80%;
+    background-color: rgb(240, 230, 140);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+  }
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid rgb(34, 139, 34);
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  .radio-group label {
+      display: inline-block;
+      margin-right: 10px;
+  }
+   textarea {
+      width: 100%;
+      padding: 28px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+  }
+  button {
+      display: block;
+      width: 60%;
+      margin: 1em auto;
+      height: 2em;
+      font-size: 1.1rem;
+      background-color: rgb(0, 49, 83); 
+      color: white; 
+      border: 2px solid white; 
+      min-width: 300px;
+      cursor: pointer; 
+  }
+  button:hover {
+      background-color: #218838;
+  }
